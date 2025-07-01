@@ -1,13 +1,14 @@
-
 {
   "name": "doctor-appointment-frontend",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
     "@reduxjs/toolkit": "^1.9.7",
+    "axios": "^1.10.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-redux": "^8.1.3",
+    "react-router-dom": "^7.6.3",
     "react-scripts": "5.0.1"
   },
   "scripts": {

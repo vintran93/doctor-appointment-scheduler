@@ -1,0 +1,35 @@
+[
+  {
+    "model": "doctors.doctor",
+    "pk": 1,
+    "fields": {
+      "name": "Sarah Johnson",
+      "specialty": "Cardiology",
+      "education": "MD from Harvard Medical School",
+      "image": "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=200",
+      "address": "123 Medical Center Dr, Suite 200, Austin, TX 78701"
+    }
+  },
+  {
+    "model": "doctors.doctor",
+    "pk": 2,
+    "fields": {
+      "name": "Michael Chen",
+      "specialty": "Dermatology",
+      "education": "MD from Johns Hopkins University",
+      "image": "https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?w=200",
+      "address": "456 Health Plaza, Floor 3, Austin, TX 78702"
+    }
+  },
+  {
+    "model": "doctors.doctor",
+    "pk": 3,
+    "fields": {
+      "name": "Emily Rodriguez",
+      "specialty": "Pediatrics",
+      "education": "MD from Stanford University School of Medicine",
+      "image": "https://images.unsplash.com/photo-1594824475317-67c0c5f5e8c8?w=200",
+      "address": "789 Children's Hospital Way, Austin, TX 78703"
+    }
+  }
+]
