@@ -58,42 +58,46 @@ A full‑stack web application that lets patients book appointments with special
    Port	Service </br>
    8000	Django REST API </br>
    3000	React client (Vite dev server) </br>
-```
+``` 
 🔌 API Overview </br>
-bash </br>
-Copy
-Edit </br>
-/api/auth/              # register / login / refresh </br>
-/api/doctors/           # list, retrieve </br>
-/api/appointments/      # CRUD (auth required) </br>
-All requests require Authorization: Bearer <JWT> unless noted. </br>
+```
+   bash </br>
+   Copy
+   Edit </br>
+   /api/auth/              # register / login / refresh </br>
+   /api/doctors/           # list, retrieve </br>
+   /api/appointments/      # CRUD (auth required) </br>
+   All requests require Authorization: Bearer <JWT> unless noted. </br>
+```
 
 📁 Project Structure </br>
-bash </br>
-Copy </br>
-Edit </br>
-backend/ </br>
-  apps/ </br>
-    accounts/           # custom User + auth views </br>
-    doctors/            # Doctor model & serializers </br>
-    appointments/       # Appointment model & logic </br>
-frontend/ </br>
-  src/ </br>
-    pages/              # Login, Dashboard, Appointments </br>
-    components/         # DoctorCard, AppointmentForm … </br>
-    store/              # Redux slices (auth, doctors, appointments)  </br></br>
-🗺️ Roadmap </br></br>
-Doctor self‑service portal (profile & availability) </br>
-Calendar‑style slot picker </br>
-Email/SMS reminders via Celery + Twilio </br>
-Postgres & Docker Compose default </br>
-
+```
+   bash </br>
+   Copy </br>
+   Edit </br>
+   backend/ </br>
+     apps/ </br>
+       accounts/           # custom User + auth views </br>
+       doctors/            # Doctor model & serializers </br>
+       appointments/       # Appointment model & logic </br>
+   frontend/ </br>
+     src/ </br>
+       pages/              # Login, Dashboard, Appointments </br>
+       components/         # DoctorCard, AppointmentForm … </br>
+       store/              # Redux slices (auth, doctors, appointments)  </br></br>
+   🗺️ Roadmap </br></br>
+   Doctor self‑service portal (profile & availability) </br>
+   Calendar‑style slot picker </br>
+   Email/SMS reminders via Celery + Twilio </br>
+   Postgres & Docker Compose default </br>
+```
 Possible Future Updates
-Map to see local doctors in the user's area
-Appointment history
+```
+Map to see local doctors in the user's area <br>
+Appointment history <br>
+```
+Show some support <br>
+Give a ⭐️ if you like this project! <br>
 
-Show some support
-Give a ⭐️ if you like this project!
-
-License
+License <br>
 This project is MIT licensed @ [vintran93]
