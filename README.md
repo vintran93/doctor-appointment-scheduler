@@ -2,7 +2,7 @@
  
 ![image](https://github.com/user-attachments/assets/343a81f8-eba8-4e72-9f0b-6132c90320ab)
 
-A full‑stack web application that lets patients **discover doctors, book appointments, and manage their visits** — all from an intuitive React dashboard backed by a secure Django & DRF API. </br>
+A full‑stack web application that lets patients book appointments with specialized doctors in the local area, and manage their visits** — all from an intuitive React dashboard backed by a secure Django & DRF API. </br>
 ---
 
 ✨ Key Features </br>
