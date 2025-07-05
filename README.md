@@ -26,78 +26,80 @@ A full‑stack web application that lets patients book appointments with special
 
 ---
 
-## 🚀 Quick Start (Local) </br>
+## 🚀 Quick Start (Local) 
 
-1. **Clone & install** </br>
+1. **Clone & install**
    ```bash
-   git clone https://github.com/YOUR_USERNAME/doctor‑appointment.git </br>
-   cd doctor‑appointment </br>
+   git clone https://github.com/YOUR_USERNAME/doctor‑appointment.git 
+   cd doctor‑appointment 
 
 2. Backend </br>
 ```
-   bash </br>
-   Copy </br>
-   Edit </br>
-   cd backend </br>
-   python -m venv venv && source venv/bin/activate </br>
-   pip install -r requirements.txt </br>
-   cp .env.example .env          # set SECRET_KEY, DEBUG, DB creds … </br>
-   python manage.py migrate </br>
-   python manage.py runserver </br>
-   python manage.py createsuperuser (optional) </br>
+   bash 
+   Copy 
+   Edit 
+   cd backend 
+   python -m venv venv && source venv/bin/activate 
+   pip install -r requirements.txt 
+   cp .env.example .env          # set SECRET_KEY, DEBUG, DB creds … 
+   python manage.py migrate 
+   python manage.py runserver 
+   python manage.py createsuperuser (optional) 
 ```
 
 3. Frontend </br>
 ```
-   bash </br>
-   Copy </br>
-   Edit  </br>
-   cd ../frontend </br>
-   npm i </br>
-   npm run dev       # http://localhost:3000 </br>
-   Port	Service </br>
-   8000	Django REST API </br>
-   3000	React client (Vite dev server) </br>
+   bash 
+   Copy 
+   Edit  
+   cd ../frontend 
+   npm i 
+   npm run dev       # http://localhost:3000 
+   Port	Service 
+   8000	Django REST API
+   3000	React client (Vite dev server)
 ``` 
 🔌 API Overview </br>
 ```
-   bash </br>
+   bash
    Copy
-   Edit </br>
-   /api/auth/              # register / login / refresh </br>
-   /api/doctors/           # list, retrieve </br>
-   /api/appointments/      # CRUD (auth required) </br>
-   All requests require Authorization: Bearer <JWT> unless noted. </br>
+   Edit 
+   /api/auth/              # register / login / refresh 
+   /api/doctors/           # list, retrieve 
+   /api/appointments/      # CRUD (auth required) 
+   All requests require Authorization: Bearer <JWT> unless noted.
 ```
 
 📁 Project Structure </br>
 ```
-   bash </br>
-   Copy </br>
-   Edit </br>
-   backend/ </br>
-     apps/ </br>
-       accounts/           # custom User + auth views </br>
-       doctors/            # Doctor model & serializers </br>
-       appointments/       # Appointment model & logic </br>
-   frontend/ </br>
-     src/ </br>
-       pages/              # Login, Dashboard, Appointments </br>
-       components/         # DoctorCard, AppointmentForm … </br>
-       store/              # Redux slices (auth, doctors, appointments)  </br></br>
-   🗺️ Roadmap </br></br>
-   Doctor self‑service portal (profile & availability) </br>
-   Calendar‑style slot picker </br>
-   Email/SMS reminders via Celery + Twilio </br>
-   Postgres & Docker Compose default </br>
+   bash 
+   Copy 
+   Edit 
+   backend/ 
+     apps/ 
+       accounts/           # custom User + auth views 
+       doctors/            # Doctor model & serializers 
+       appointments/       # Appointment model & logic 
+   frontend/ 
+     src/ 
+       pages/              # Login, Dashboard, Appointments 
+       components/         # DoctorCard, AppointmentForm … 
+       store/              # Redux slices (auth, doctors, appointments)
+
+🗺️ Roadmap
+````
+   Doctor self‑service portal (profile & availability) 
+   Calendar‑style slot picker 
+   Email/SMS reminders via Celery + Twilio 
+   Postgres & Docker Compose default 
 ```
 Possible Future Updates
 ```
-Map to see local doctors in the user's area <br>
-Appointment history <br>
+Map to see local doctors in the user's area
+Appointment history
 ```
-Show some support <br>
-Give a ⭐️ if you like this project! <br>
+Show some support 
+Give a ⭐️ if you like this project!
 
-License <br>
+License </br>
 This project is MIT licensed @ [vintran93]
