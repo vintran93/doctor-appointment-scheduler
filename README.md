@@ -85,6 +85,7 @@ A full‑stack web application that lets patients book appointments with special
        pages/              # Login, Dashboard, Appointments 
        components/         # DoctorCard, AppointmentForm … 
        store/              # Redux slices (auth, doctors, appointments)
+```
 
 🗺️ Roadmap
 ````
@@ -93,13 +94,13 @@ A full‑stack web application that lets patients book appointments with special
    Email/SMS reminders via Celery + Twilio 
    Postgres & Docker Compose default 
 ```
-Possible Future Updates
-```
-Map to see local doctors in the user's area
-Appointment history
-```
-Show some support 
-Give a ⭐️ if you like this project!
+
+Possible Future Updates <br/>
+Map to see local doctors in the user's area <br/>
+Appointment history <br/>
+
+Show some support  <br/>
+Give a ⭐️ if you like this project! <br/>
 
 License </br>
 This project is MIT licensed @ [vintran93]
