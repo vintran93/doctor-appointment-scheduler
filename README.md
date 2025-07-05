@@ -93,6 +93,7 @@ A full‑stack web application that lets patients book appointments with special
 - **Calendar:** ‑style slot picker 
 - **Email/SMS:** reminders via Celery + Twilio  
 - **Postgres:** & Docker Compose default
+- **Auth:**
 
 Possible Future Updates 
 - **Map:** to see local doctors in the user's area 
