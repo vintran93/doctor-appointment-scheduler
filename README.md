@@ -14,6 +14,7 @@ A full‑stack web application that lets patients **discover doctors, book appoi
 | **User Dashboard** | React + Tailwind UI with protected routes, tabbed navigation, and Redux state | </br>
 | **Role Separation** | Custom `accounts.User` model (email‑as‑login) keeps the door open for future doctor/admin roles | </br>
 | **API‑first** | All data exposed under `/api/*` for easy mobile or third‑party integration | </br>
+| **System Administration** | Create user accounts and doctors or edit their information such as providing password resests
 
 --- </br>
 
@@ -42,6 +43,7 @@ pip install -r requirements.txt </br>
 cp .env.example .env          # set SECRET_KEY, DEBUG, DB creds … </br>
 python manage.py migrate </br>
 python manage.py runserver </br>
+python manage.py createsuperuser (optional) </br>
 Frontend </br>
 
 bash </br>
@@ -83,5 +85,12 @@ Calendar‑style slot picker </br>
 Email/SMS reminders via Celery + Twilio </br>
 Postgres & Docker Compose default </br>
 
-📃 License
-MIT — see LICENSE for details.
+Possible Future Updates
+Map to see local doctors in the user's area
+Appointment history
+
+Show some support
+Give a ⭐️ if you like this project!
+
+License
+This project is MIT licensed @ [vintran93]
