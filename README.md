@@ -78,8 +78,8 @@ frontend/ </br>
   src/ </br>
     pages/              # Login, Dashboard, Appointments </br>
     components/         # DoctorCard, AppointmentForm … </br>
-    store/              # Redux slices (auth, doctors, appointments)  </br>
-🗺️ Roadmap </br>
+    store/              # Redux slices (auth, doctors, appointments)  </br></br>
+🗺️ Roadmap </br></br>
 Doctor self‑service portal (profile & availability) </br>
 Calendar‑style slot picker </br>
 Email/SMS reminders via Celery + Twilio </br>
