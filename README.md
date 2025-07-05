@@ -87,7 +87,7 @@ A full‑stack web application that lets patients book appointments with special
        store/              # Redux slices (auth, doctors, appointments)
 ```
 
-🗺️ Roadmap
+🗺️ Roadmap <br/>
    Doctor self‑service portal (profile & availability) <br/>
    Calendar‑style slot picker <br/>
    Email/SMS reminders via Celery + Twilio  <br/>
