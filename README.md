@@ -89,14 +89,14 @@ A full‑stack web application that lets patients book appointments with special
 
 🗺️ Roadmap <br/>
 ```
-•Doctor self‑service portal (profile & availability)
-•Calendar‑style slot picker 
-•Email/SMS reminders via Celery + Twilio  
-•Postgres & Docker Compose default
+- Doctor self‑service portal (profile & availability)
+- Calendar‑style slot picker 
+- Email/SMS reminders via Celery + Twilio  
+- Postgres & Docker Compose default
 
 Possible Future Updates 
-•Map to see local doctors in the user's area 
-•Appointment history  
+- Map to see local doctors in the user's area 
+- Appointment history  
    
 Show some support   
    Give a ⭐️ if you like this project! 
