@@ -95,7 +95,8 @@ A full‑stack web application that lets patients book appointments with special
 
 Possible Future Updates
 • Map to see local doctors in the user's area
-• Appointment: history  
+• Appointment history
+• Doctor search bar
    
 Show some support   
    Give a ⭐️ if you like this project! 
