@@ -14,7 +14,7 @@ A full‑stack web application that lets patients book appointments with special
 | **User Dashboard** | React + Tailwind UI with protected routes, tabbed navigation, and Redux state | </br>
 | **Role Separation** | Custom `accounts.User` model (email‑as‑login) keeps the door open for future doctor/admin roles | </br>
 | **API‑first** | All data exposed under `/api/*` for easy mobile or third‑party integration | </br>
-| **System Administration** | Create user accounts and doctors or edit their information such as providing password resests
+| **System Administration** | Create user accounts and doctors or edit their information such as providing password resets
 
 --- </br>
 
