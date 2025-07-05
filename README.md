@@ -95,8 +95,8 @@ A full‑stack web application that lets patients book appointments with special
 •	Postgres: & Docker Compose default
 
 Possible Future Updates 
-•	Map to see local doctors in the user's area 
-•	Appointment: history  
+•	Map to see local doctors in the user's area
+• Appointment: history  
    
 Show some support   
    Give a ⭐️ if you like this project! 
