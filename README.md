@@ -32,30 +32,33 @@ A full‑stack web application that lets patients book appointments with special
    ```bash
    git clone https://github.com/YOUR_USERNAME/doctor‑appointment.git </br>
    cd doctor‑appointment </br>
-Backend </br>
 
-bash </br>
-Copy </br>
-Edit </br>
-cd backend </br>
-python -m venv venv && source venv/bin/activate </br>
-pip install -r requirements.txt </br>
-cp .env.example .env          # set SECRET_KEY, DEBUG, DB creds … </br>
-python manage.py migrate </br>
-python manage.py runserver </br>
-python manage.py createsuperuser (optional) </br>
-Frontend </br>
+2. Backend </br>
+```
+   bash </br>
+   Copy </br>
+   Edit </br>
+   cd backend </br>
+   python -m venv venv && source venv/bin/activate </br>
+   pip install -r requirements.txt </br>
+   cp .env.example .env          # set SECRET_KEY, DEBUG, DB creds … </br>
+   python manage.py migrate </br>
+   python manage.py runserver </br>
+   python manage.py createsuperuser (optional) </br>
+```
 
-bash </br>
-Copy </br>
-Edit  </br>
-cd ../frontend </br>
-npm i </br>
-npm run dev       # http://localhost:3000 </br>
-Port	Service </br>
-8000	Django REST API </br>
-3000	React client (Vite dev server) </br>
-
+3. Frontend </br>
+```
+   bash </br>
+   Copy </br>
+   Edit  </br>
+   cd ../frontend </br>
+   npm i </br>
+   npm run dev       # http://localhost:3000 </br>
+   Port	Service </br>
+   8000	Django REST API </br>
+   3000	React client (Vite dev server) </br>
+```
 🔌 API Overview </br>
 bash </br>
 Copy
